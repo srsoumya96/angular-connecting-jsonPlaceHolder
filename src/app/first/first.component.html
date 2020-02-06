@@ -1,0 +1,6 @@
+<h1 *ngIf="true" style.color={{color}}>{{title}}</h1>
+<!-- to use ngModle inside form, use ngModelOption as standAlone or define name attribute -->
+<div *ngIf="showEmps">
+{{emps | json}}
+</div>
+<button (click)="btnClick()">Show Employees</button>
